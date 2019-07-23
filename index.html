@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Resume - Start Bootstrap Theme</title>
+  <title>Resume - Mark Kevin Besinga - Full Stack Web Developer</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,13 +21,66 @@
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
 
+  <style>
+    .bgImg1, .bgImg2 {      
+      display: block;
+      position: relative;
+    }
+
+    .bgImg1::after {
+      /* background-image: url('img/work-731198_1280.jpg');
+      background-position: center;
+      background-size: cover; */
+      /* background: url('img/work-731198_1280.jpg'); */
+      /* background: url(img/computer-1873831_1920.png); */
+      /* background-position: center; */
+      /* background-position:56% 50%; */
+      content: "";
+      background: url('img/3394.jpg');
+      background-size: cover;
+      opacity: 0.3;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;   
+    }
+
+    .bgImg2::after {
+      /* background-image: url('img/work-731198_1280.jpg');
+      background-position: center;
+      background-size: cover; */
+      /* background: url('img/work-731198_1280.jpg'); */
+      /* background: url(img/computer-1873831_1920.png); */
+      /* background-position: center; */
+      /* background-position:56% 50%; */
+      content: "";
+      background: url('img/computer-1245714_1920.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: 50% 0%;
+      background-size: cover;
+      opacity: 0.04;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;   
+    }
+  </style>
+
+  <link rel="stylesheet" href="icomoon/style.css">
+  <!-- <link rel="stylesheet" href="icomoon/jquery/style.css"> -->
+
 </head>
 
-<body id="page-top">
+<body id="page-top" class=" ">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top" id="sideNav">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top bgImg1" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Clarence Taylor</span>
+      <span class="d-block d-lg-none">Mark Kevin Besinga</span>
       <span class="d-none d-lg-block">
         <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://avatars0.githubusercontent.com/u/2681689" alt="">
       </span>
@@ -53,13 +106,13 @@
           <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          <a class="nav-link js-scroll-trigger" href="#informations">Informations</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <div class="container-fluid p-0">
+  <div class="container-fluid p-0 bgImg2">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
@@ -69,7 +122,7 @@
         <div class="subheading mb-5">110 Unit C Cuidad Grande Dolores · Taytay Rizal, PH 1870 · +63 921 872 4457 ·
           <a href="mailto:besingamkb@gmail.com" class="text-danger">besingamkb@gmail.com</a>
         </div>
-        <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+        <p class="lead mb-5">A self-taught full-stack web developer that has a great experience using laravel, Codeigniter and Phalconphp framework for the backend and Vuejs, React and Angular for the frontend. Using LEMP, LAMP on Linux servers is my stacks for servers.</p>
         <div class="social-icons">
           <a href="#">
             <i class="fab fa-linkedin-in text"></i>
@@ -94,46 +147,61 @@
         <h2 class="mb-5">Experience</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content">
+              <h3 class="mb-0">Full Stack Web Developer</h3>
+              <div class="subheading mb-3">Home Base / Freelance</div>
+              <p>Developing for clients mostly laravel and javascripts.
+                </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">March 2016 — Present
+                </span>
+            </div>
+          </div>
+        
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Senior Web Developer</h3>
-            <div class="subheading mb-3">Intelitec Solutions</div>
-            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+            <h3 class="mb-0">Associate Back-End Developer</h3>
+            <div class="subheading mb-3">US Autoparts Phil.</div>
+            <p>Maintain and enhance ecommerce Autoparts websites.
+              </p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">March 2013 - Present</span>
+            <span class="text-primary">November 2014 — March 2016</span>
           </div>
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Web Developer</h3>
-            <div class="subheading mb-3">Intelitec Solutions</div>
-            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+            <h3 class="mb-0">Junior Software Engineer</h3>
+            <div class="subheading mb-3">Entertainment Gateway Group</div>
+            <p>Develop sms services, Develop management system of specific services.
+              </p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">December 2011 - March 2013</span>
+            <span class="text-primary">April 2014 — October 2014</span>
           </div>
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Junior Web Designer</h3>
-            <div class="subheading mb-3">Shout! Media Productions</div>
-            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+            <h3 class="mb-0">Full-stack Web Developer</h3>
+            <div class="subheading mb-3">Fil-Fashion Innovators Inc.</div>
+            <p>Develop web base system from scratch. Develop Wordpress base themes and plug ins.</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">July 2010 - December 2011</span>
+            <span class="text-primary">August 2013 — April 2014</span>
           </div>
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
-            <h3 class="mb-0">Web Design Intern</h3>
-            <div class="subheading mb-3">Shout! Media Productions</div>
-            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+            <h3 class="mb-0">Web Developer/Designer</h3>
+            <div class="subheading mb-3">Goweb Hosting Solution</div>
+            <p>Enhance existing client's website and develop from scratch websites for clients.</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">September 2008 - June 2010</span>
+            <span class="text-primary">August 2012 — August 2013</span>
           </div>
         </div>
 
@@ -149,26 +217,40 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">University of Colorado Boulder</h3>
-            <div class="subheading mb-3">Bachelor of Science</div>
-            <div>Computer Science - Web Development Track</div>
-            <p>GPA: 3.23</p>
+            <h3 class="mb-0">INFOTECH Institute of Arts and Sciences</h3>
+            <div class="subheading mb-3">2 years Computer Science Course</div>
+            <div>Crossing Mandaluyong City</div>
+            <!-- <p>GPA: 3.23</p> -->
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">August 2006 - May 2010</span>
+            <span class="text-primary">2010 - 2012</span>
           </div>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">James Buchanan High School</h3>
-            <div class="subheading mb-3">Technology Magnet Program</div>
-            <p>GPA: 3.56</p>
+            <h3 class="mb-0">Caluya National High School</h3>
+            <div class="subheading mb-3">High School</div>
+            <div>Poblacion Caluya Isl. Caluya Antique</div>
+            <!-- <p>GPA: 3.56</p> -->
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">August 2002 - May 2006</span>
+            <span class="text-primary">2006 - 2009</span>
           </div>
         </div>
+
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+            <div class="resume-content">
+              <h3 class="mb-0">Divine Word School of Semirara Island.</h3>
+              <div class="subheading mb-3">Elementary School</div>
+              <div>Semirara Isl. Caluya Antique</div>
+              <!-- <p>GPA: 3.56</p> -->
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">1999 - 2005</span>
+            </div>
+          </div>
 
       </div>
     </section>
@@ -179,59 +261,129 @@
       <div class="w-100">
         <h2 class="mb-5">Skills</h2>
 
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <div class="subheading mb-3">Backend Programming Languages &amp; Frameworks</div>
+        <ul class="list-inline dev-icons">
+            <li class="list-inline-item">
+                <i class="fab fa-php"></i>
+            </li>
+            <li class="list-inline-item">
+                <i class="fab fa-laravel"></i>
+            </li>
+            <li class="list-inline-item">
+                <i class="icon-iconfinder_social_media_social_media_logo_codeigniter_1916035"></i>
+            </li>
+            <li class="list-inline-item">
+                <i class="icon-phalconphp-icon"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-wordpress"></i>
+            </li>
+            <li class="list-inline-item">
+                <i class="fab fa-node-js"></i>
+            </li>
+        </ul>
+
+        <div class="subheading mb-3">Frontend Programming Languages &amp; Frameworks</div>
+        <ul class="list-inline dev-icons">
+            <li class="list-inline-item">
+                <i class="fab fa-js"></i>
+            </li>
+            <li class="list-inline-item">
+                <i class="fab fa-npm"></i>
+            </li>
+            <li class="list-inline-item">
+                <i class="fab fa-vuejs"></i>
+            </li>
+            <li class="list-inline-item">
+                <i class="fab fa-angular"></i>
+            </li>
+            <li class="list-inline-item">
+                <i class="fab fa-react"></i>
+            </li>
+        </ul>
+
+        <ul class="list-inline dev-icons">
+            <li class="list-inline-item">
+                <i class="fab fa-html5"></i>
+            </li>
+            <li class="list-inline-item">
+                <i class="fab fa-css3"></i>
+            </li>
+            <li class="list-inline-item">
+                <i class="icon-iconfinder_jquery_282807"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-sass"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-less"></i>
+            </li>
+            <li class="list-inline-item">
+                <!-- <i class="icon-webpack"></i> -->
+                <i class="icon-webpack"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-gulp"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-grunt"></i>
+            </li>
+        </ul>
+
+        <div class="subheading mb-3">Linux &amp; Servers</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
+            <span class="icon-nginx-icon"><span class="path1"></span><span class="path2"></span></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
+              <span class="icon-feather"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span><span class="path19"></span><span class="path20"></span><span class="path21"></span></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
+              <span class="icon-mysql"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-angular"></i>
+              <span class="icon-mongodb-icon"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-react"></i>
+            <i class="fab fa-ubuntu"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
+            <i class="fab fa-fedora"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-sass"></i>
+            <i class="fab fa-centos"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-less"></i>
+            <i class="fab fa-digital-ocean"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-wordpress"></i>
+            <i class="fab fa-aws"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-gulp"></i>
+            <i class="fab fa-docker"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-grunt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-npm"></i>
+              <i class="icon-vagrantup-icon"></i>
           </li>
         </ul>
 
-        <div class="subheading mb-3">Workflow</div>
+        <div class="subheading mb-3">Others</div>
         <ul class="fa-ul mb-0">
           <li>
-            <i class="fa-li fa fa-check"></i>
-            Mobile-First, Responsive Design</li>
+            <i class="fa-li fa fa-arrow-right"></i>
+            Cryptocurrency, smart contracts, solidity</li>
           <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Browser Testing &amp; Debugging</li>
+            <i class="fa-li fa fa-arrow-right"></i>
+            phpunit, PHPspec, Unit Testing, TDD, Solid Principles</li>
           <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Functional Teams</li>
+            <i class="fa-li fa fa-arrow-right"></i>
+            Machine Learning</li>
           <li>
-            <i class="fa-li fa fa-check"></i>
+            <i class="fa-li fa fa-arrow-right"></i>
+            Python, Django, Flask</li>
+            
+          <li>
+            <i class="fa-li fa fa-arrow-right"></i>
             Agile Development &amp; Scrum</li>
         </ul>
       </div>
@@ -242,17 +394,70 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
       <div class="w-100">
         <h2 class="mb-5">Interests</h2>
-        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+        <p>Aside from being a full-stack developer. I am also an enthusiast on block-chain technology especially on smart contact, Ethereum's solidity, machine learnings, games including game development, and some other new techs.</p>
+        <p class="mb-0">My life outside the computer. I love bikes, motorcycles and music instruments.</p>
       </div>
     </section>
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="informations">
       <div class="w-100">
-        <h2 class="mb-5">Awards &amp; Certifications</h2>
-        <ul class="fa-ul mb-0">
+        <h2 class="mb-5">Personal &amp; Other Informations</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Mark Kevin Cardente Besinga</h3>
+            <div class="subheading mb-3">Full Name</div>
+          </div>
+
+          <div class="resume-content">
+            <h3 class="mb-0">26 years old</h3>
+            <div class="subheading mb-3">Age</div>
+          </div>
+          
+
+          <div class="resume-content">
+            <h3 class="mb-0">October 23, 1992</h3>
+            <div class="subheading mb-3">Birthday</div>
+          </div>
+          <!-- <div class="resume-date text-md-right">
+            <span class="text-primary">November 2014 — March 2016</span>
+          </div> -->
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Tagum City, Davao</h3>
+            <div class="subheading mb-3">Birthplace</div>
+          </div>
+          <div class="resume-content">
+            <h3 class="mb-0">Filipino</h3>
+            <div class="subheading mb-3">Citizenship</div>
+          </div>
+          <div class="resume-content">
+            <h3 class="mb-0">Married</h3>
+            <div class="subheading mb-3">Civil Status</div>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          
+        </div>
+
+
+
+
+
+
+
+
+        
+        <!-- <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
             Google Analytics Certified Developer</li>
@@ -279,7 +484,7 @@
             <i class="fa-li fa fa-trophy text-warning"></i>
             3<sup>rd</sup>
             Place - James Buchanan High School - Hackathon 2005</li>
-        </ul>
+        </ul> -->
       </div>
     </section>
 
