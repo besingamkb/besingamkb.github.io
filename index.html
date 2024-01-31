@@ -119,7 +119,7 @@
         <h1 class="mb-0">Mark Kevin
           <span class="text-danger">Besinga</span>
         </h1>
-        <div class="subheading mb-5">Taytay Rizal, Philippines · +63 998 258 1575 ·
+        <div class="subheading mb-5">Tanza Cavite, Philippines · +63 998 258 1575 ·
           <a href="mailto:besingamkb@gmail.com" class="text-danger">besingamkb@gmail.com</a>
         </div>
         <!-- <p class="lead mb-5">A self-taught full-stack web developer that has a great experience using laravel, Codeigniter and Phalconphp framework for the backend and Vuejs, React and Angular for the frontend. Using LEMP, LAMP on Linux servers is my stacks for servers.</p> -->
@@ -156,12 +156,12 @@
 
         <div class="subheading mb-3">Programming Languages &amp; Frameworks</div>
         <ul class="list-inline dev-icons">
-            <li class="list-inline-item">
+            <!-- <li class="list-inline-item">
                 <i class="fab fa-php"></i>
             </li>
             <li class="list-inline-item">
                 <i class="fab fa-laravel"></i>
-            </li>
+            </li> -->
             <!-- <li class="list-inline-item">
                 <i class="icon-iconfinder_social_media_social_media_logo_codeigniter_1916035"></i>
             </li> -->
@@ -174,13 +174,23 @@
             <!-- <li class="list-inline-item">
                 <i class="fab fa-node-js"></i>
             </li> -->
-            <li class="list-inline-item">
+            <!-- <li class="list-inline-item">
               <i class="fab fa-js"></i>
+            </li> -->
+            <li class="list-inline-item">
+              <img src="img/icons/icons8-php-50.png" alt="PHP">
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-vuejs"></i>
+              <img src="img/icons/icons8-javascript-50.png" alt="Javascript">
+            </li>
+            <li class="list-inline-item">
+              <img src="img/icons/icons8-typescript-50.png" alt="Typescript">
+            </li>
+            <li class="list-inline-item">
+              <img src="img/icons/icons8-mysql-50.png" alt="Typescript">
             </li>
         </ul>
+        <p style="font-size: 14px; color: #e2e2e2;">Icon by https://icons8.com/</p>
 
         <!-- <div class="subheading mb-3">Frontend Programming Languages &amp; Frameworks</div>
         <ul class="list-inline dev-icons">
@@ -270,23 +280,26 @@
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-arrow-right"></i>
-            PHP / Laravel</li>
+            PHP, JS/Typescript</li>
           <li>
             <i class="fa-li fa fa-arrow-right"></i>
-            JS, TS, Vue, React, and Angular</li>
+            Laravel / Symfony</li>
           <li>
             <i class="fa-li fa fa-arrow-right"></i>
-            MYSQL, MongoDB, and DynamoDB</li>
+            Vue, React, Angular</li>
           <li>
             <i class="fa-li fa fa-arrow-right"></i>
-            Material Design, Bootstrap, Tailwind</li>
+            Vuex, Redux</li>
           <li>
             <i class="fa-li fa fa-arrow-right"></i>
-            Linux Servers, Amazon AWS, GCP, Digital Ocean</li>
+            MySQL, MongoDB</li>
+          <li>
+            <i class="fa-li fa fa-arrow-right"></i>
+            Linux, AWS, Digital Ocean</li>
         </ul>
         <br />
 
-        <div class="subheading mb-3">Other Skill Set</div>
+        <div class="subheading mb-3">Interests</div>
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-arrow-right"></i>
@@ -304,6 +317,20 @@
             <i class="fa-li fa fa-arrow-right"></i>
             Domain Driven Development</li>
         </ul>
+        <br />
+
+        <div class="subheading mb-3">Tools</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-arrow-right"></i>
+            Docker, Jest, PHPUnit</li>
+          <li>
+            <i class="fa-li fa fa-arrow-right"></i>
+            JetBrains Products (PHPStorm, Datagrip), VSCode, SublimeText, vim</li>
+          <li>
+            <i class="fa-li fa fa-arrow-right"></i>
+            Git, Jenkins, Postman Synergy</li>
+        </ul>
       </div>
     </section>
 
@@ -315,6 +342,20 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
+            <h3 class="mb-0">Senior Software Engineer II</h3>
+            <div class="subheading mb-3">
+              <a href="#" target="_blank">HCLSoftware</a>
+            </div>
+            <p>Making DX magic with HCL DX CLIENT.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">March 2022 — Present
+              </span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
             <h3 class="mb-0">Senior Web Developer</h3>
             <div class="subheading mb-3">
               <a href="#" target="_blank">Cafe24</a>
@@ -322,7 +363,7 @@
             <p>Making cool ideas possible.</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">July 2020 — Present
+            <span class="text-primary">July 2020 — February 2022
               </span>
           </div>
         </div>
@@ -460,7 +501,7 @@
 
           <div class="resume-content">
             <h3 class="mb-0">Years of experiences</h3>
-            <div class="subheading mb-3">9+ years</div>
+            <div class="subheading mb-3" id="yrs-of-exp">9+ years</div>
           </div>
           
 
@@ -557,6 +598,16 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
+  <script>
+    // Select the specific div element
+    const divElement = document.querySelector('#yrs-of-exp');
+
+    // Get the current year
+    const currentYear = new Date().getFullYear();
+
+    // Update the text content with the calculated value
+    divElement.textContent = `${currentYear - 2013}+ years`;
+  </script>
 
 </body>
 
